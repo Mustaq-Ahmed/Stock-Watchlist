@@ -1,0 +1,39 @@
+.watchlist-container{
+    /* margin-top: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    text-decoration: underline;
+    margin: 2rem;
+}
+
+.deleteBtn {
+    background-color: rgb(216, 114, 114);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 1.5px 5px;
+}
+ 
+ @media screen and (max-width: 850px){  
+    .deleteBtn {
+        font-size: 13px;
+        padding: 1.5px 4px;
+    }
+    .heading{
+        margin: 1.5rem;
+    }
+ }
+ 
+ @media screen and (max-width: 550px){  
+    .deleteBtn {
+        font-size: 12px;
+        padding: 1px 2px;
+    }
+    .heading{
+        margin: 1rem;
+    }
+ }
